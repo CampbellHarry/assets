@@ -22,7 +22,7 @@ section{
     }
     .container{
         width: 300px !important;
-
+        height: 660px !important;
     }
     .verse{
         font-size: xx-small !important;
@@ -38,6 +38,9 @@ section{
     }
     .after{
         font-size: 14px;
+    }
+    section{
+        min-height: 551px;
     }
 }
 .container{

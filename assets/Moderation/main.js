@@ -15,10 +15,10 @@ function updateNotification(e) {
     var actions = "";
     switch (modnote) {
         case "Moderation Action discussed":
-            actions = "No action taken (Warning)";
+            actions = "Warning";
             break;
         case "Username Violates":
-            actions = "Account Deletion";
+            actions = "Your account has been deleted.";
             break;
         case "Spamming":
             actions = "Chat Limited for 2 days";
