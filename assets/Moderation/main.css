@@ -17,7 +17,7 @@ section{
 /* mobile */
 @media only screen and (max-width: 500px){
     .attention{
-        font-size: 16px;
+        font-size: 16px !important;
         text-align: center !important;
     }
     .container{
@@ -40,7 +40,7 @@ section{
         font-size: 14px;
     }
     section{
-        min-height: 551px;
+        min-height: 341px;
     }
 }
 .container{
@@ -115,6 +115,7 @@ b{
     justify-content: center;
     border-radius: 10px;
     margin-top: 50px;
+    align-items: center;
 }
 
 .warnbox{
