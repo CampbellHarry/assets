@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+
+.warnboxc {
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.warnbox{
+    width: auto;
+    height: auto;
+    margin: 20px;
+    position: relative;
+    font-size: 18px;
+    color: #ffffff;
+    border: 3px solid red;
+    text-align: center;
+    padding: 10px;
+}
+
+.warnbox p {
+    color: transparent;
+    text-shadow: 0 0 10px white;
+}
+
+.warnbox p:hover {
+    color: white;
+    text-shadow: none;
+}
