@@ -17,7 +17,7 @@ function updateNotification(e) {
         case "Moderation Action discussed":
             actions = "Warning";
             break;
-        case "Username Violates":
+        case "Username Violation":
             actions = "Your account has been deleted.";
             break;
         case "Spamming":
@@ -40,10 +40,11 @@ function updateNotification(e) {
     }
 
     // Update the notification elements with user input and determined action
-    document.getElementById("username").textContent = username;
-    document.getElementById("time").textContent = "Reviewed at: " + time + " LOCAL TIME";
+    document.getElementById("username").textContent = username + ",";
+    document.getElementById("time").textContent = "Reviewed at: " + time + " (LOCAL TIME)";
     document.getElementById("modnote").textContent = modnote;
     document.getElementById("reason").textContent = reason;
+    document.getElementById("modnotee").textContent = modnote;
     document.getElementById("prohibited").textContent = prohibited;
     document.getElementById("actions").textContent = actions;
 }

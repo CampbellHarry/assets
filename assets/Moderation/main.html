@@ -10,9 +10,9 @@
     <section>
         <div class="warnboxc">
             <div class="warnbox" onclick="updateWarningText()">
-                <h1 style="text-align: center;" id="warn">Urgent Message</h1>
+                <h1 style="text-align: center;" id="warn">Critical Moderation Update.</h1>
                 <p id="warningText">
-                    Attention This is a urgent Moderation Message.
+                    <p>Your account is in violation of our terms of service:</p><p id="modnote"></p>
                 </p>
                 <small><p style="text-align: center; text-shadow: 0 0 0px white;" id="small">Read with care</p></small>
             </div>
@@ -27,8 +27,8 @@
                 <p style="font-size: x-large;">Our moderation team have concluded that your behavior has been in violation with our policies.</p>
             </div>
             <div class="review">
-                Reviewed at:</p> <p id="time"><b>00:00:00 LOCAL TIME</b></p>
-                <p>Moderation Note:</p><p id="modnote"><b>MODERATION-NOTE-HERE</b></p>
+                <p id="time"><b></b></p>
+                <p>Moderation Note:</p><p id="modnotee"><b>MODERATION-NOTE-HERE</b></p>
             </div>
             <div class="proof">
                 <p>Reason:</p><p id="reason"><b>REASON</b></p>
@@ -48,14 +48,14 @@
         <form id="moderationForm">
             <h1 style="color: white;">Admin panel to change things</h1>
             <label for="userr" style="color: white;">Username:</label>
-            <input placeholder="Username" minlength="3" id="userr">
+            <input placeholder="Username" minlength="3" id="userr" required>
             <label for="timee" style="color: white;">Time:</label>
-            <input type="time" id="timee">
+            <input type="time" id="timee" required>
             <label for="modnoteee" style="color: white;">Moderation note:</label>
-            <input list="moderation" name="moderation">
-            <datalist id="moderation">
+            <input list="moderation" name="moderation" required>
+            <datalist id="moderation" required>
               <option value="Moderation Action discussed">
-              <option value="Username Violates">
+              <option value="Username Violation">
               <option value="Spamming">
               <option value="Illegal content">
               <option value="Discrimination">
@@ -63,9 +63,9 @@
               <option value="Hacking">
             </datalist>
             <label for="reasonn" style="color: white;">Reason:</label>
-            <input id="reasonn" placeholder="Reason">
+            <input id="reasonn" placeholder="Reason" required>
             <label for="prooff" style="color: white;">Proof:</label>
-            <input placeholder="proof" id="prooff">
+            <input placeholder="proof" id="prooff" required>
             <input type="submit" value="Submit">
         </form>
     </section>
