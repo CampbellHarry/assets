@@ -1,0 +1,97 @@
+:root{
+    --textp: #333333;
+    --texts: #ffffff;
+    --background: #f8f8f8;
+    --primary: #273d61;
+    --secondary: #3a5d9c;
+    --tursh: #808080;
+    --good: #3d9c61;
+    --warning: #d9534f;
+    --caution: #f0ad4e;
+    --shadows: #455f8a;
+    --disabled: #e0e0e0;
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: monospace;
+    scroll-behavior: smooth;
+    max-width: 100%;
+    background-color: var(--background);
+    overflow-x: hidden;
+    
+}
+header{
+    text-align: center;
+    padding: 20px 0;
+
+    background-color: var(--primary);
+    color: var(--texts);
+    align-items: center;
+    z-index: 10000000000;
+}
+.sidebar{
+    height: 500px;
+    border-bottom-right-radius: 15px;
+    background-color: var(--primary);
+    width: 200px;
+    padding: 10px;
+    position: relative;
+    box-shadow: 0px 4px 0px 4px var(--shadows);
+    transition: 0.3s ease-in;
+    border-top: var(--primary) 3px solid;
+}
+.sidebar:hover{
+    box-shadow: 0px 0px 0px 0px transparent;
+    transition: 0.3s ease-out;
+    border-top: black 3px solid;
+}
+.sbuttons{
+    width: 105%;
+    height: 50px;
+    left: -3px;
+    border-top: var(--tursh) solid 3px;
+    border-bottom: var(--tursh) solid 3px;
+    position: relative;
+    color: var(--texts);
+    text-align: center;
+    margin-bottom: 30px;
+    transition: 1s ease-in;
+    cursor: pointer;
+}
+.sbuttons:hover{
+    border-top: white solid 3px;
+    border-bottom: white solid 3px;
+    transition: 1s ease-out;
+}
+.graphc {
+    width: 1130px;
+    height: 750px;
+    background-color: var(--primary);
+    position: relative;
+    left: 390px;
+    top: -475px;
+    grid-area: auto;
+    grid-row: inherit;
+    padding: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(2, 1fr);    /* 2 rows */
+    gap: 10px; /* spacing between items */
+}
+
+.graphm {
+    height: 350px;
+    width: 350px;
+    background-color: var(--warning);
+    margin: 10px;
+}
+.innerg{
+    width: 330px;
+    height: 330px;
+    background-color: white;
+    margin: 10px;
+}
