@@ -1,0 +1,244 @@
+body{
+    margin: 0 auto;
+    padding: 0px;
+    font-family: monospace;
+    scroll-behavior: smooth;
+    max-width: 100%;
+    background-color: black;
+    position: fixed; 
+    top: 0; 
+    width:100%;
+}
+
+header{
+    padding: 20px 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    z-index: 10000000000;
+    color: white;
+    border-bottom: 3px gray solid;
+    display: flex;
+    padding-left: 10px;
+}
+.hidden{
+    background-color: gray !important;
+}
+
+.line{
+    background-color: gray;
+    height: 20px;
+    width: 600px;
+    border-radius: 10px;
+    position: relative;
+    left: 39%;
+    top: -25px;
+    z-index: -2;
+}
+.pfp{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-image: url(download.png);
+    background-position: center;
+    left: 34%;
+    top: -100px;
+    position: relative;
+    z-index: 5;
+}
+.pfpwar1{
+    height: 136px;
+    width: 136px;
+    border-radius: 50%;
+    background-color: green;
+    z-index: 2;
+    left: 33.9%;
+    top: -233px;
+    position: relative;
+}
+.pfpwar2{
+    height: 136px;
+    width: 136px;
+    border-radius: 50%;
+    background-color: yellowgreen;
+    z-index: 2;
+    left: 33.9%;
+    top: -233px;
+    position: relative;
+}
+.pfpwar3{
+    height: 136px;
+    width: 136px;
+    border-radius: 50%;
+    background-color: yellow;
+    z-index: 2;
+    left: 33.9%;
+    top: -233px;
+    position: relative;
+}
+.pfpwar4{
+    height: 136px;
+    width: 136px;
+    border-radius: 50%;
+    background-color: rgb(255, 145, 0);
+    z-index: 2;
+    left: 33.9%;
+    top: -233px;
+    position: relative;
+}
+.pfpwar5{
+    height: 136px;
+    width: 136px;
+    border-radius: 50%;
+    background-color: red;
+    z-index: 2;
+    left: 33.9%;
+    top: -233px;
+    position: relative;
+}
+.linepoints{
+    background-color: green;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: relative;
+    left: 80px;
+    top: -25px;
+}
+.linepoints1{
+    background-color: yellowgreen;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: relative;
+    left: 200px;
+    top: -93px;
+}
+.linepoints2{
+    background-color: yellow;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: relative;
+    left: 320px;
+    top: -163px;
+}
+.linepoints3{
+    background-color: rgb(255, 145, 0);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: relative;
+    left: 440px;
+    top: -233px;
+}
+.linepoints4{
+    background-color: red;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: relative;
+    left: 560px;
+    top: -303px;
+}
+.linepoints:hover{
+    transform: scale(1.2);
+}
+.linepoints1:hover{
+    transform: scale(1.2);
+}
+.linepoints2:hover{
+    transform: scale(1.2);
+}
+.linepoints3:hover{
+    transform: scale(1.2);
+}
+.linepoints4:hover{
+    transform: scale(1.2);
+}
+.line1{
+    background-color: green;
+    height: 20px;
+    width: 120px;
+    border-radius: 10px;
+    position: relative;
+    left: 0px;
+    top: -350px;
+    z-index: -1;
+}
+.line2{
+    background-color: yellowgreen;
+    height: 20px;
+    width: 120px;
+    border-radius: 10px;
+    position: relative;
+    left: 100px;
+    top: -370px;
+    z-index: -1;
+}
+.line3{
+    background-color: yellow;
+    height: 20px;
+    width: 120px;
+    border-radius: 10px;
+    position: relative;
+    left: 210px;
+    top: -390px;
+    z-index: -1;
+}
+.line4{
+    background-color: rgb(255, 145, 0);
+    height: 20px;
+    width: 120px;
+    border-radius: 10px;
+    position: relative;
+    left: 330px;
+    top: -410px;
+    z-index: -1;
+}
+.line5{
+    background-color: red;
+    height: 20px;
+    width: 120px;
+    border-radius: 10px;
+    position: relative;
+    left: 460px;
+    top: -430px;
+    z-index: -1;
+}
+.aboutitc{
+    height: 550px;
+    width: 600px;
+    background-color: rgb(85, 85, 85);
+    position: relative;
+    left: 38%;
+    top: 10px;
+    z-index: 4;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-left: 5px;
+}
+.aboutith{
+    height: 80px;
+    width: 600px;
+    background-color: rgb(85, 85, 85);
+    position: relative;
+    z-index: 4;
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    border-bottom: rgb(255, 255, 255) 3px solid;
+    padding-left: -14px;
+}
+.actions{
+    border-bottom: black 4px solid;
+    height: 200px;
+    width: 100%;
+    color: white;
+}
+.input-container{
+    position: relative;
+    display: flex;
+    top: -500px;
+    left: 2.5%;
+}

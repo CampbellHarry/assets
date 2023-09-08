@@ -11,13 +11,14 @@ function updateWarningText() {
         warningTextElement.textContent = "Attention This is a urgent Message.";
         warningHeadElement.textContent = "Urgent Message";
         warnBoxElement.style.borderColor = "red";
-        blurry.style.textShadow = "0 0 10px white"
-        smallt.textContent = "Click to acknowledge"
+        blurry.style.textShadow = "0 0 10px white";
+        smallt.textContent = "Click to acknowledge";
+        blurry.style.textShadow = "0 0 10px white";
     } else {
         warningTextElement.textContent = "Sorted this urgent Message";
         warningHeadElement.textContent = "Resolved";
         warnBoxElement.style.borderColor = "green";
-        blurry.style.textShadow = "0 0 0px white"
+        blurry.style.textShadow = "0 0 0 white";
         smallt.textContent = "Click to review message."
     }
     isWarning = !isWarning;
