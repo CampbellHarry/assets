@@ -1,13 +1,13 @@
-body{
-    margin: 0 auto;
-    padding: 0px;
+body {
+    margin: 0;
+    padding: 0;
     font-family: monospace;
     scroll-behavior: smooth;
     max-width: 100%;
     background-color: black;
-    position: fixed; 
-    top: 0; 
-    width:100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
     touch-action: pan-y;
 }
 section{
@@ -267,7 +267,7 @@ header{
     position: relative;
     display: flex;
     top: 400px;
-    left: 800px
+    left: 840px
 }
 /* width */
 .aboutitc::-webkit-scrollbar {
