@@ -232,7 +232,7 @@ header{
     width: 800px;
     background-color: rgb(85, 85, 85);
     position: relative;
-    right: -600px;
+    right: -620px;
     top: 250px;
     z-index: 4;
     overflow-y: scroll;
@@ -266,8 +266,8 @@ header{
 .input-container{
     position: relative;
     display: flex;
-    top: 200px;
-    left: 2.5%;
+    top: 400px;
+    left: 800px
 }
 /* width */
 .aboutitc::-webkit-scrollbar {
