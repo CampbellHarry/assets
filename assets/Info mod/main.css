@@ -8,6 +8,11 @@ body{
     position: fixed; 
     top: 0; 
     width:100%;
+    touch-action: pan-y;
+}
+section{
+    display: grid;
+    font-size: xx-large;
 }
 
 header{
@@ -30,9 +35,9 @@ header{
     height: 20px;
     width: 600px;
     border-radius: 10px;
-    position: relative;
-    left: 39%;
-    top: -25px;
+    position: absolute;
+    left: 750px;
+    top: 200px;
     z-index: -2;
 }
 .pfp{
@@ -41,59 +46,59 @@ header{
     border-radius: 50%;
     background-image: url(download.png);
     background-position: center;
-    left: 34%;
-    top: -100px;
-    position: relative;
-    z-index: 5;
+    left: 650px;
+    top: 145px;
+    position: absolute;
+    z-index: 6;
 }
 .pfpwar1{
-    height: 136px;
-    width: 136px;
+    height: 25px;
+    width: 25px;
     border-radius: 50%;
     background-color: green;
-    z-index: 2;
-    left: 33.9%;
-    top: -233px;
-    position: relative;
+    z-index: 1;
+    left: 95px;
+    top: 75px;
+    position: absolute;
 }
 .pfpwar2{
-    height: 136px;
-    width: 136px;
+    height: 25px;
+    width: 25px;
     border-radius: 50%;
     background-color: yellowgreen;
     z-index: 2;
-    left: 33.9%;
-    top: -233px;
+    left: 95px;
+    top: 75px;
     position: relative;
 }
 .pfpwar3{
-    height: 136px;
-    width: 136px;
+    height: 25px;
+    width: 25px;
     border-radius: 50%;
     background-color: yellow;
     z-index: 2;
-    left: 33.9%;
-    top: -233px;
+    left: 95px;
+    top: 75px;
     position: relative;
 }
 .pfpwar4{
-    height: 136px;
-    width: 136px;
+    height: 25px;
+    width: 25px;
     border-radius: 50%;
     background-color: rgb(255, 145, 0);
     z-index: 2;
-    left: 33.9%;
-    top: -233px;
+    left: 95px;
+    top: 75px;
     position: relative;
 }
 .pfpwar5{
-    height: 136px;
-    width: 136px;
+    height: 25px;
+    width: 25px;
     border-radius: 50%;
     background-color: red;
     z-index: 2;
-    left: 33.9%;
-    top: -233px;
+    left: 95px;
+    top: 75px;
     position: relative;
 }
 .linepoints{
@@ -104,6 +109,7 @@ header{
     position: relative;
     left: 80px;
     top: -25px;
+    align-items: center;
 }
 .linepoints1{
     background-color: yellowgreen;
@@ -113,6 +119,7 @@ header{
     position: relative;
     left: 200px;
     top: -93px;
+    
 }
 .linepoints2{
     background-color: yellow;
@@ -133,13 +140,21 @@ header{
     top: -233px;
 }
 .linepoints4{
-    background-color: red;
+    background-color: red ;
     height: 70px;
     width: 70px;
     border-radius: 50%;
     position: relative;
     left: 560px;
     top: -303px;
+}
+.linepoints img,
+.linepoints1 img,
+.linepoints2 img,
+.linepoints3 img,
+.linepoints4 img {
+    display: block;
+    margin:  auto;
 }
 .linepoints:hover{
     transform: scale(1.2);
@@ -207,38 +222,66 @@ header{
     z-index: -1;
 }
 .aboutitc{
-    height: 550px;
-    width: 600px;
+    height: 300px;
+    width: 800px;
     background-color: rgb(85, 85, 85);
     position: relative;
-    left: 38%;
-    top: 10px;
+    right: -600px;
+    top: 250px;
     z-index: 4;
     overflow-y: scroll;
     overflow-x: hidden;
     padding-left: 5px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
 }
 .aboutith{
     height: 80px;
-    width: 600px;
+    width: 800px;
     background-color: rgb(85, 85, 85);
     position: relative;
     z-index: 4;
-    font-size: x-large;
+    font-size: large;
     color: white;
-    text-align: center;
+    text-align: left;
     border-bottom: rgb(255, 255, 255) 3px solid;
-    padding-left: -14px;
+    padding-left: 20px;
+    padding-bottom: -100px;
+    float: left;
 }
 .actions{
     border-bottom: black 4px solid;
-    height: 200px;
+    height: auto;
     width: 100%;
     color: white;
+    font-size: x-large;
+    text-align: center;
 }
 .input-container{
     position: relative;
     display: flex;
-    top: -500px;
+    top: 200px;
     left: 2.5%;
 }
+/* width */
+.aboutitc::-webkit-scrollbar {
+    width: 5px;
+    margin-right: 2px;
+  }
+  
+  /* Track */
+.aboutitc::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 0.5px;
+  }
+  
+  /* Handle */
+.aboutitc::-webkit-scrollbar-thumb {
+    background: rgb(29, 29, 29);
+    border-end-start-radius: 5px;
+  }
+  
+  /* Handle on hover */
+.aboutitc::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

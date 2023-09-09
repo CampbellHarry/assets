@@ -1,4 +1,4 @@
-var warningCount = 0;
+var warningCount = 1;
 
 document.getElementById("addButton").addEventListener("click", function() {
     if (warningCount < 5) {
@@ -14,10 +14,12 @@ document.getElementById("addButton").addEventListener("click", function() {
 
         var warningTitle = "Warning";
 
-        if (warningCount === 3 || warningCount === 4) {
+        if (warningCount === 3) {
             warningTitle += " - Account Suspension";
+        } else if(warningCount ===4) {
+            warningTitle += " - Account Suspension <p><u>This account is 1 warning away from banned permanently</u></p>";
         } else if (warningCount === 5) {
-            warningTitle += " - Permanent Ban";
+            warningTitle += " - Permanent Ban" + "<p><u>This account is banned permanently</u></p>";
         }
 
         var warningMessage = "<h2>" + warningTitle + "</h2><p><strong>Timestamp:</strong> " + timestamp + "</p><p><strong>Reason:</strong> " + warnText + "</p>";
