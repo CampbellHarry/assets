@@ -26,8 +26,12 @@ header{
     display: flex;
     padding-left: 10px;
 }
+
 .hidden{
     background-color: gray !important;
+}
+.vis{
+    background-color: green;
 }
 
 .line{
@@ -158,23 +162,28 @@ header{
 }
 .linepoints:hover{
     transform: scale(1.2);
+    transition: 1s ease-in;
 }
 .linepoints1:hover{
     transform: scale(1.2);
+    transition: 1s ease-in;
 }
 .linepoints2:hover{
     transform: scale(1.2);
+    transition: 1s ease-in;
 }
 .linepoints3:hover{
     transform: scale(1.2);
+    transition: 1s ease-in;
 }
 .linepoints4:hover{
     transform: scale(1.2);
+    transition: 1s ease-in;
 }
 .line1{
     background-color: green;
     height: 20px;
-    width: 120px;
+    width: 0px;
     border-radius: 10px;
     position: relative;
     left: 0px;

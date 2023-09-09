@@ -39,6 +39,7 @@ document.getElementById("addButton").addEventListener("click", function() {
 
         var linepoint = document.getElementById("linepoints" + warningCount);
         linepoint.style.transform = "scale(1.2)";
+        linepoint.style.transition = "1s ease-in";
 
         var linepointz = document.getElementById("linepointz");
         linepointz.classList.remove("hidden");
