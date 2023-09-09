@@ -53,6 +53,6 @@ document.getElementById("addButton").addEventListener("click", function() {
         linepointz.classList.add("pfpwar" + warningCount);
 
     } else {
-        alert("You've reached the maximum number of warnings (5).");
+        alert("You've reached the maximum number of warnings (4).");
     }
 });
