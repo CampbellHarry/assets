@@ -30,9 +30,6 @@ header{
 .hidden{
     background-color: gray !important;
 }
-.vis{
-    background-color: green;
-}
 
 .line{
     background-color: gray;
@@ -183,7 +180,7 @@ header{
 .line1{
     background-color: green;
     height: 20px;
-    width: 0px;
+    width: 120px;
     border-radius: 10px;
     position: relative;
     left: 0px;
