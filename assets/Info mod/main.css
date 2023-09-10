@@ -12,6 +12,8 @@ body {
 }
 section{
     display: grid;
+    place-items: center;
+    align-items: center;
     font-size: xx-large;
 }
 
@@ -37,7 +39,6 @@ header{
     width: 600px;
     border-radius: 10px;
     position: absolute;
-    left: 750px;
     top: 200px;
     z-index: -2;
 }
@@ -47,8 +48,8 @@ header{
     border-radius: 50%;
     background-image: url(download.png);
     background-position: center;
-    left: 650px;
-    top: 145px;
+    left: -100px;
+    top: -50px;
     position: absolute;
     z-index: 6;
 }
@@ -231,9 +232,8 @@ header{
     height: 300px;
     width: 800px;
     background-color: rgb(85, 85, 85);
-    position: relative;
-    right: -620px;
-    top: 250px;
+    position: absolute;
+    top: 350px;
     z-index: 4;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -266,8 +266,8 @@ header{
 .input-container{
     position: relative;
     display: flex;
-    top: 400px;
-    left: 840px
+    top: 600px;
+
 }
 /* width */
 .aboutitc::-webkit-scrollbar {
