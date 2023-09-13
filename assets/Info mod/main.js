@@ -22,7 +22,7 @@ document.getElementById("addButton").addEventListener("click", function() {
             warningTitle += " - Permanent Ban" + "<p><u>This account is banned permanently</u></p>";
         }
 
-        var warningMessage = "<h2>" + warningTitle + "</h2><p><strong>Timestamp:</strong> " + timestamp + "</p><p><strong>Reason:</strong> " + warnText + "</p>";
+        var warningMessage = "<h2>" + warningTitle + "</h2><p><strong>Time of warn:</strong> " + timestamp + "</p><p><strong>Reason:</strong> " + warnText + "</p>";
 
         newWarning.innerHTML = warningMessage;
 
