@@ -31,20 +31,20 @@
                 <p>Moderation Note:</p><p id="modnotee"><b>MODERATION-NOTE-HERE</b></p>
             </div>
             <div class="proof">
-                <p>Reason:</p><p id="reason"><b>REASON</b></p>
+                <p >Reason:</p><p id="reason" style="border-bottom: 2px white solid;"><b>REASON</b></p>
                 <br>
+                <div class="pfp"><img id="profilePicPreview" src="" style="height: 50px; width: 50px; border-radius: 50%;"></div>
+                <p id="usernamee" class="user"><b>username</b></p>
                 <br>
-                <p>Prohibited item:</p><p id="prohibited"><b>PROHIBITED-ITEM</b></p>
+                <p>Violating Message:</p><p id="prohibited"><b>PROHIBITED-ITEM</b></p>
             </div>
             <div class="after">
                 <p>Current Account features disabled:</p><p id="actions"><b>WHATAREDISABLE</b></p>
-                <br>
                 <p>If you deem this moderation action <b>unfair</b> please contact our support team right away.</p>                
             </div>
         </div>
     </section>
     <section>
-
         <form id="moderationForm">
             <h1 style="color: white;">Admin panel to change things</h1>
             <label for="userr" style="color: white;">Username:</label>
@@ -53,6 +53,8 @@
             <input type="time" id="timee" required>
             <label for="modnoteee" style="color: white;">Moderation note:</label>
             <input list="moderation" name="moderation" required>
+            <label for="pfpp" style="color: white;">Profile picture:</label>
+            <input placeholder="Profile picture" id="pfpp" type="file" required>
             <datalist id="moderation" required>
               <option value="Moderation Action discussed">
               <option value="Username Violation">

@@ -4,7 +4,7 @@ body {
     font-family: monospace;
     scroll-behavior: smooth;
     max-width: 100%;
-    background-color: rgb(63, 63, 63);
+    background-color: rgb(73, 73, 73);
     overflow-x: hidden;
 }
 section{
@@ -45,12 +45,13 @@ section{
 }
 .container{
     top: 6.2%;
-    height: 800px;
+    height: 900px;
     width: 900px;
     border: black 0px solid;
     position: relative;
-    background-color: rgb(97, 97, 97);
-    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 10px;
 }
 *{
     padding: 0;
@@ -98,6 +99,18 @@ b{
     text-overflow: ellipsis;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    border-radius: 10px;
+}
+.pfp{
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+.usern{
+    left: 100px;
+    top: 0px;
+    position: relative;
 }
 .proof::-webkit-scrollbar {
     display: none;

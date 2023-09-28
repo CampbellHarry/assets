@@ -10,7 +10,8 @@ function updateNotification(e) {
     var modnote = document.querySelector('[name="moderation"]').value;
     var reason = document.getElementById("reasonn").value;
     var prohibited = document.getElementById("prooff").value;
-
+    var fileInput = document.getElementById("pfpp");
+    var profilePicture = fileInput.files[0];
 
     var actions = "";
     switch (modnote) {
@@ -47,7 +48,24 @@ function updateNotification(e) {
     document.getElementById("modnotee").textContent = modnote;
     document.getElementById("prohibited").textContent = prohibited;
     document.getElementById("actions").textContent = actions;
+    document.getElementById("usernamee").textContent = username;
+
+
+    if (profilePicture) {
+        var reader = new FileReader();
+        reader.onload = function(e) {
+            var profilePicPreview = document.getElementById("profilePicPreview");
+            profilePicPreview.src = e.target.result;
+            profilePicPreview.style.display = "block";
+        }
+        reader.readAsDataURL(profilePicture);
+    }
 }
+
+// Event listener to trigger the updateNotification function when the form is submitted
+document.getElementById("moderationForm").addEventListener("submit", function (e) {
+    updateNotification(e);
+});
 
 // Event listener to trigger the updateNotification function when the form is submitted
 document.getElementById("moderationForm").addEventListener("submit", function (e) {
