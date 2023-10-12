@@ -18,10 +18,16 @@ section{
 }
 .containter{
     background-color: white;
-    width: 1000px;
-    height: 800px;
+    width: 100%;
+    height: 900px;
     margin-top: 15px;
     margin-bottom: 100px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .head{
     border-bottom: 4px black solid;
@@ -32,7 +38,7 @@ section{
 .scrolly{
     overflow-x: hidden;
     overflow-y: scroll;
-    height: 100%;
+    height: 86%;
     width: 100%;
     background-color: gray;
     background-image: url(/img/background_noisy.webp);
@@ -58,4 +64,25 @@ section{
     margin-bottom: 10px;
     padding: 10px;
     border: #000 2px solid; 
+}
+
+@media only screen and (max-width: 768px) {
+    .containter {
+        height: auto;
+        margin-top: 5px;
+        margin-bottom: 50px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .chatmsg {
+        font-size: small;
+    }
+    .pfp {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        padding: 5px;
+        border: #000 1px solid; 
+    }
 }
