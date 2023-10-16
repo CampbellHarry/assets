@@ -9,7 +9,7 @@
         "username": "proGamer",
         "flags": "Account Theft",
         "pfp": "http://placekitten.com/201/301",
-        "content": "This user has been using deceptive practices to steal accounts."
+        "content": "Come round for a good time (and so i can plug a usb in your computer)"
     },
     {
         "username": "artLover",
@@ -31,7 +31,7 @@
     },
     {
         "username": "guitarHero",
-        "flags": "Distrobution of Malicious Content",
+        "flags": "Distribution of Malicious Content",
         "pfp": "http://placekitten.com/205/305",
         "content": "Download this to be good at csgo: hdev.uk/cheats/123"
     },
@@ -75,13 +75,13 @@
         "username": "shadyDealer",
         "flags": "Illegal Items",
         "pfp": "http://placekitten.com/214/314",
-        "content": "Selling counterfeit goods, no questions asked. DM for more info."
+        "content": "Selling the good ;) goods, no questions asked. DM for more info."
     },
     {
         "username": "infoSeeker",
         "flags": "Phishing Attempt",
         "pfp": "http://placekitten.com/215/315",
-        "content": "Click this link to verify your account details: [phishing-link]"
+        "content": "Click this link to verify your account details: hdev.uk/phishinglink"
     },
     {
         "username": "conspiracyTheorist",
@@ -91,7 +91,7 @@
     },
     {
         "username": "friendlyNeighbor",
-        "flags": "False Positive",
+        "flags": "Hate Speech",
         "pfp": "http://placekitten.com/217/317",
         "content": "Just dropping by to say hi to everyone! Hope you're all having a great day!"
     },
@@ -108,10 +108,10 @@
         "content": "Thank you all for being such a wonderful community. Let's keep it positive and respectful!"
     },
     {
-        "username": "infoSeeker",
+        "username": "infoSeeeker",
         "flags": "Phishing Attempt",
         "pfp": "http://placekitten.com/215/315",
-        "content": "Click this link to verify your account details: [phishing-link]"
+        "content": "Click this link to verify your account details: hdev.uk/phishinglink"
     },
     {
         "username": "positivePanda",
@@ -123,145 +123,151 @@
         "username": "nightRider",
         "flags": "Spamming",
         "pfp": "http://placekitten.com/217/317",
-        "content": "This user was spamming the chat with irrelevant messages."
+        "content": "Join game join game join game plssssss"
     },
     {
         "username": "wildSoul",
         "flags": "Inappropriate Language",
         "pfp": "http://placekitten.com/218/318",
-        "content": "This user used inappropriate language in the chat."
+        "content": "Fuck it no one likes you anyway."
     },
     {
         "username": "starGazerX",
         "flags": "Harassment",
         "pfp": "http://placekitten.com/219/319",
-        "content": "This user was harassing other members of the community."
+        "content": "Hi all hope we are doing well"
     },
     {
         "username": "musicComposerX",
-        "flags": "Cheating",
+        "flags": "Self Harm",
         "pfp": "http://placekitten.com/220/320",
-        "content": "This user was caught cheating in the game."
+        "content": "Who would care if i was to do it?"
     },
     {
         "username": "peacefulWarriorX",
-        "flags": "Offensive Content",
+        "flags": "Pornography",
         "pfp": "http://placekitten.com/221/321",
-        "content": "This user posted offensive content in the chat."
+        "content": "AUTO IMAGE DETECTOR FOUND 89% SKIN IN A IMAGE"
     },
     {
         "username": "starWalkerX",
-        "flags": "Spamming",
+        "flags": "Hate Speech",
         "pfp": "http://placekitten.com/222/322",
-        "content": "This user was spamming the chat with irrelevant messages."
+        "content": "i hate hate hate you."
     },
     {
         "username": "bookWormX",
         "flags": "Inappropriate Language",
         "pfp": "http://placekitten.com/223/323",
-        "content": "This user used inappropriate language in the chat."
+        "content": "I love books so fuckin much"
     },
     {
         "username": "mountainExplorerX",
-        "flags": "Harassment",
+        "flags": "Harassment / Discriminatory content",
         "pfp": "http://placekitten.com/224/324",
-        "content": "This user was harassing other members of the community."
+        "content": "Get back here you little slave"
     },
     {
         "username": "secretAgentX",
-        "flags": "Cheating",
+        "flags": "Child Saftey",
         "pfp": "http://placekitten.com/225/325",
-        "content": "This user was caught cheating in the game."
+        "content": "13? nice meet me at (LOCATION)"
     },
     {
         "username": "sunflowerX",
-        "flags": "Offensive Content",
+        "flags": "Spamming",
         "pfp": "http://placekitten.com/226/326",
-        "content": "This user posted offensive content in the chat."
+        "content": "SUIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"
     },
     {
         "username": "dreamCatcherX",
-        "flags": "Spamming",
+        "flags": "Distribution of Malicious Content",
         "pfp": "http://placekitten.com/227/327",
-        "content": "This user was spamming the chat with irrelevant messages."
+        "content": "download this free exploit i made to get good at anything"
     },
     {
         "username": "treeHuggerX",
-        "flags": "Inappropriate Language",
+        "flags": "Off-Site Links Unverified",
         "pfp": "http://placekitten.com/228/328",
-        "content": "This user used inappropriate language in the chat."
+        "content": "Download some more RAM here hdev.uk/ram"
     },
     {
-        "username": "oceanVoyagerX",
-        "flags": "Harassment",
+        "username": "HarryCampbell",
+        "flags": "Off-Site Links Unverified",
         "pfp": "http://placekitten.com/229/329",
-        "content": "This user was harassing other members of the community."
+        "content": "Hey Im the developer here i made this site check it out hdev.uk"
     },
     {
         "username": "nightRiderX",
         "flags": "Cheating",
         "pfp": "http://placekitten.com/230/330",
-        "content": "This user was caught cheating in the game."
+        "content": "This user was caught cheating in the game by HarryCheatSystems."
     },
     {
         "username": "wildSoulX",
         "flags": "Offensive Content",
         "pfp": "http://placekitten.com/231/331",
-        "content": "This user posted offensive content in the chat."
+        "content": "Retarded game, retarded players, retarded developers."
     },
     {
         "username": "starGazerY",
-        "flags": "Spamming",
+        "flags": "Moderation Abuse",
         "pfp": "http://placekitten.com/232/332",
-        "content": "This user was spamming the chat with irrelevant messages."
+        "content": "THIS USER HAS FALSE FLAGGED MULTIPLE USERS"
     },
     {
-        "username": "chocolateLoverY",
-        "flags": "Inappropriate Language",
+        "username": "HarrCampbell",
+        "flags": "Impersonation",
         "pfp": "http://placekitten.com/233/333",
-        "content": "This user used inappropriate language in the chat."
+        "content": "Im the real Harry Campbell"
     },
     {
         "username": "dreamWeaverY",
-        "flags": "Harassment",
+        "flags": "Sexual Behavior",
         "pfp": "http://placekitten.com/234/334",
-        "content": "This user was harassing other members of the community."
+        "content": "Lets lay down and relax now."
     },
     {
         "username": "musicComposerY",
-        "flags": "Cheating",
+        "flags": "Moderation Actions Discussed",
         "pfp": "http://placekitten.com/235/335",
-        "content": "This user was caught cheating in the game."
+        "content": "Got warned by some moderator for god sake"
     },
     {
         "username": "peacefulWarriorY",
-        "flags": "Offensive Content",
+        "flags": "DMCA Takedown Request",
         "pfp": "http://placekitten.com/236/336",
-        "content": "This user posted offensive content in the chat."
+        "content": "I have leaked the new song by Harry! Check it out here: hdev.uk/music/123"
     },
     {
         "username": "starWalkerY",
-        "flags": "Spamming",
+        "flags": "Ban Evading",
         "pfp": "http://placekitten.com/237/337",
-        "content": "This user was spamming the chat with irrelevant messages."
+        "content": "Oh yeah new account who dis? I cant be stopped"
     },
     {
         "username": "wildflowerY",
-        "flags": "Inappropriate Language",
+        "flags": "User Flagged Content. Bullying",
         "pfp": "http://placekitten.com/238/338",
-        "content": "This user used inappropriate language in the chat."
+        "content": "Haha your bad"
     },
     {
-        "username": "secretAgentY",
-        "flags": "Scamming",
-        "pfp": "http://placekitten.com/239/339",
-        "content": "I found this really helpful article about productivity hacks. Check it out: [hidden link](hdev.uk/404)"
+        "username": "jewhunter88",
+        "flags": "Racism, Extremism, Username Violation",
+        "pfp": "http://placekitten.com/239/370",
+        "content": "waiting on the racewar rn, jewhunter88"
     },
     {
-        "username": "dreamCatcherY",
-        "flags": "Cheating",
-        "pfp": "http://placekitten.com/240/340",
-        "content": "This user was caught cheating in the game by HarryCheatSystems."
+        "username": "savilleJr19",
+        "flags": "Offensive Username",
+        "pfp": "http://placekitten.com/239/371",
+        "content": "savilleJr19"
+    },
+    {
+        "username": "swagman420",
+        "flags": "Harassment",
+        "pfp": "http://placekitten.com/239/372",
+        "content": "shut the fuck up retard"
     },
     {
         "username": "oceanVoyagerY",
@@ -291,7 +297,7 @@
         "username": "peacefulWarriorY",
         "flags": "Offensive Content",
         "pfp": "http://placekitten.com/246/346",
-        "content": "This user posted offensive content in the chat."
+        "content": "fuck shit ass i can say them lol"
     },
     {
         "username": "starWalkerY",
@@ -303,49 +309,49 @@
         "username": "wildflowerY",
         "flags": "Inappropriate Language",
         "pfp": "http://placekitten.com/248/348",
-        "content": "This user used inappropriate language in the chat."
+        "content": "Cheese"
     },
     {
         "username": "secretAgentY",
         "flags": "Harassment",
         "pfp": "http://placekitten.com/249/349",
-        "content": "This user was harassing other members of the community."
+        "content": "What a horrible person, I hope they get banned."
     },
     {
         "username": "dreamCatcherY",
         "flags": "Cheating",
         "pfp": "http://placekitten.com/250/350",
-        "content": "This user was caught cheating in the game."
+        "content": "This user was caught cheating in the game by HarryCheatSystems."
     },
     {
         "username": "oceanVoyagerY",
         "flags": "Offensive Content",
         "pfp": "http://placekitten.com/251/351",
-        "content": "This user posted offensive content in the chat."
+        "content": "I FUCKING HATE THIS GAME WHY ARE THE GUNS SO OP OMG"
     },
     {
         "username": "nightRiderY",
         "flags": "Spamming",
         "pfp": "http://placekitten.com/252/352",
-        "content": "This user was spamming the chat with irrelevant messages."
+        "content": "hi hi hi omg did you see that?"
     },
     {
         "username": "wildSoulY",
         "flags": "Inappropriate Language",
         "pfp": "http://placekitten.com/253/353",
-        "content": "This user used inappropriate language in the chat."
+        "content": "Fuck you"
     },
     {
         "username": "starGazeru",
-        "flags": "Harassment",
+        "flags": "Discrimination",
         "pfp": "http://placekitten.com/254/354",
-        "content": "This user was harassing other members of the community."
+        "content": "Whats going on my Nice guy."
     },
     {
         "username": "chocolateLoverY",
-        "flags": "Cheating",
+        "flags": "Targeted Harassment",
         "pfp": "http://placekitten.com/255/355",
-        "content": "This user was caught cheating in the game."
+        "content": "I see you @starGazeru, you're a terrible person and I hope you get banned."
     },
     {
         "username": "user1429",

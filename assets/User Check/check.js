@@ -110,25 +110,43 @@ const noact = document.getElementById("noact");
 
 if (warn) {
     warn.addEventListener("click", function() {
-        correct++;
-        updateStats();
-        clearContent();
+        const username = username1.innerText;
+        const action = "warn";
+        const confirmMessage = `Are you sure you want to ${action} ${username}?`;
+        if (confirm(confirmMessage)) {
+            correct++;
+            console.log(correct)
+            updateStats();
+            clearContent();
+        }
     });
 }
 
 if (suspend) {
     suspend.addEventListener("click", function() {
-        correct++;
-        updateStats();
-        clearContent();
+        const username = username1.innerText;
+        const action = "suspend";
+        const confirmMessage = `Are you sure you want to ${action} ${username}?`;
+        if (confirm(confirmMessage)) {
+            correct++;
+            console.log(correct)
+            updateStats();
+            clearContent();
+        }
     });
 }
 
 if (ban) {
     ban.addEventListener("click", function() {
-        correct++;
-        updateStats();
-        clearContent();
+        const username = username1.innerText;
+        const action = "ban";
+        const confirmMessage = `Are you sure you want to ${action} ${username}?`;
+        if (confirm(confirmMessage)) {
+            correct++;
+            console.log(correct)
+            updateStats();
+            clearContent();
+        }
     });
 }
 
@@ -140,3 +158,13 @@ if (noact) {
     });
 }
 
+function fetchFlaggedItem() {
+    if (flaggedItems.length > 0) {
+        const randomIndex = Math.floor(Math.random() * flaggedItems.length);
+        const item = flaggedItems[randomIndex];
+        displayFlaggedItem(item);
+    } else {
+        console.log("No more flagged items to display");
+    }
+}
+console.log(correct)
