@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Advanced EPOS System</title>
+        <link rel="stylesheet" href="epos.css">
+    </head>
+    <body>
+        <h1>EPOS System</h1>
+        <form>
+            <label for="product">Product:</label>
+            <input type="text" id="product" name="product">
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity">
+            <button type="button" onclick="addToCart()">Add to Cart</button>
+        </form>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="cart">
+                </tbody>
+            </table>
+        <div>
+            <label for="total">Total:</label>
+            <span id="total"></span>
+        </div>
+        </section>
+        <button type="button" onclick="processPayment()">Process Payment</button>
+        <script src="epos.js"></script>
+    </body>
+</html>
