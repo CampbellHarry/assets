@@ -6,6 +6,20 @@
     </head>
     <body>
         <h1>EPOS System</h1>
+        <section class="itemSelection">
+            <div class="select">
+                <div class="top"><h1>Item A</h1></div>
+                <button type="button" onclick="addItemToCart('Item A', 10.00)">Item A - £10.00</button>
+            </div>
+            <div class="select">
+                <div class="top"><h1>Item B</h1></div>
+                <button type="button" onclick="addItemToCart('Item B', 15.00)">Item B - £15.00</button>
+            </div>
+            <div class="select">
+                <div class="top"><h1>Item C</h1></div>
+                <button type="button" onclick="addItemToCart('Item C', 20.00)">Item C - £20.00</button>
+            </div>
+        </section>
         <form>
             <label for="product">Product:</label>
             <input type="text" id="product" name="product">
@@ -29,11 +43,12 @@
                 </tbody>
             </table>
         <div>
-            <label for="total">Total:</label>
-            <span id="total"></span>
+            <label for="total" class="total">Total:</label>
+            <span id="total" class="total"></span>
         </div>
         </section>
         <button type="button" onclick="processPayment()">Process Payment</button>
         <script src="epos.js"></script>
     </body>
 </html>
+

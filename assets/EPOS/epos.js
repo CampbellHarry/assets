@@ -19,6 +19,19 @@ function addToCart() {
     }
 }
 
+function addItemToCart(product, price) {
+    let quantity = 1; 
+
+    let item = {
+        product: product,
+        price: price,
+        quantity: quantity
+    };
+
+    cart.push(item);
+    displayCart();
+}
+
 function displayCart() {
     let cartTable = document.getElementById("cart");
     cartTable.innerHTML = "";
@@ -53,5 +66,34 @@ function processPayment() {
         displayCart();
     } else {
         alert("Please add items to the cart before processing payment.");
+    }
+}function addToCart() {
+    let product = document.getElementById("product").value;
+    let price = document.getElementById("price").value;
+    let quantity = document.getElementById("quantity").value;
+
+    if (product && price && quantity) {
+        let itemExists = false;
+        for (let i = 0; i < cart.length; i++) {
+            if (cart[i].product === product) {
+                cart[i].quantity = parseInt(cart[i].quantity) + parseInt(quantity);
+                cart[i].total = parseFloat(cart[i].total) + (parseFloat(price) * parseInt(quantity));
+                itemExists = true;
+                break;
+            }
+        }
+        if (!itemExists) {
+            let item = {
+                product: product,
+                price: price,
+                quantity: quantity,
+                total: parseFloat(price) * parseInt(quantity)
+            };
+            cart.push(item);
+        }
+        displayCart();
+        clearForm();
+    } else {
+        alert("Please fill in all fields.");
     }
 }
