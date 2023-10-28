@@ -4,7 +4,7 @@
     margin-left: 25%;
     margin-top: 20%;
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 0, 0);;
     border-bottom: none;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -19,7 +19,7 @@
     width: 50%;
     margin-left: 25%;
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 0, 0);;
     border-bottom: none;
     color: turquoise;
     background-color: blue;
@@ -32,11 +32,11 @@
     width: 50%;
     margin-left: 25%;
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 0, 0);;
     color: turquoise;
     background-color: blue;
     position: relative;
-    border-bottom: none;
+
     font-size-adjust: inherit;
     padding: 10px;
     border-bottom-left-radius: 20px;
@@ -45,7 +45,7 @@
 #btn{
     font-size: 30px;
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 0, 0);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     color: turquoise;
@@ -53,15 +53,18 @@
     position: relative;
     font-size-adjust: inherit;
     padding: 10px;
+    border-top: none;
     margin-left: 3%
 }
 #btn:hover{
     background-color: #00ffff;
     color: #0000ff;
+    border-color: #e5ff00;
 }
 #btn:active{
     background-color: #e5ff00;
     color: #0000ff;
+    border-color: #00ffff;
 }
 body{
     align-items: center;
