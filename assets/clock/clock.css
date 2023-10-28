@@ -2,14 +2,14 @@
     font-size: 50px;
     width: 50%;
     margin-left: 25%;
-    margin-top: 20%;
+    margin-top: 10%;
     text-align: center;
     border: 2px solid rgb(255, 0, 0);;
     border-bottom: none;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    color: turquoise;
-    background-color: blue;
+    color: black;
+    background: linear-gradient(to right, #87CEFA, #ADD8E6, #F0E68C);
     position: relative;
     font-size-adjust: inherit;
     padding: 10px;
@@ -69,5 +69,5 @@
 body{
     align-items: center;
     text-align: center;
-    background-color: #000000;
+    background: linear-gradient(to right, #6b6b6b, #6b6464);
 }

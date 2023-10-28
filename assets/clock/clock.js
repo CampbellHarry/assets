@@ -1,7 +1,7 @@
 // Calling showTime function at every second
 setInterval(showTime, 1000);
 
-let is24hr = false;
+let is24hr = true;
 
 // Defining showTime funcion
 function showTime() {
@@ -33,6 +33,64 @@ function showTime() {
 
     // Displaying the time
     document.getElementById("clock").innerHTML = currentTime;
+
+    // Define different gradients for different times of day
+    const gradients = [
+        "linear-gradient(to bottom right, #f9d423, #ff4e50)", // Morning
+        "linear-gradient(to bottom right, #ff416c, #ff4b2b)", // Afternoon
+        "linear-gradient(to right, #87CEFA, #ADD8E6, #F0E68C)", // Evening
+        "linear-gradient(to right, #0F52BA, #143D5C, #000000)" // Night
+    ];
+
+    let hourInt = parseInt(hour);
+
+    // Get DOM elements
+    let body = document.getElementById("body");
+    let box1 = document.getElementById("clock");
+    let box2 = document.getElementById("date");
+    let box3 = document.getElementById("datee");
+    let box4 = document.getElementById("btn");
+
+    // Set background gradients based on the time of day
+    if (is24hr) {
+        if (hourInt >= 6 && hourInt < 12) {
+            // Morning (6 AM to 11:59 AM)
+            box1.style.background = gradients[0];
+            box1.style.color = "white";
+            box2.style.background = gradients[0];
+            box3.style.background = gradients[0];
+            box4.style.background = gradients[0];
+        } else if (hourInt >= 12 && hourInt < 18) {
+            // Afternoon (12 PM to 5:59 PM)
+            box1.style.background = gradients[1];
+            box2.style.background = gradients[1];
+            box3.style.background = gradients[1];
+            box4.style.background = gradients[1];
+        } else if (hourInt >= 18 && hourInt < 20) {
+            // Evening (6 PM to 9:59 PM)
+            box1.style.background = gradients[2];
+            box1.style.color = "white";
+            box2.style.background = gradients[2];
+            box2.style.color = "white";
+            box3.style.background = gradients[2];
+            box3.style.color = "white";
+            box4.style.background = gradients[2];
+            box4.style.color = "white";
+        } else {
+            // Night (9 PM to 5:59 AM)
+            box1.style.background = gradients[3];
+            box1.style.color = "white";
+            box2.style.background = gradients[3];
+            box2.style.color = "white";
+            box3.style.background = gradients[3];
+            box3.style.color = "white";
+            box4.style.background = gradients[3];
+            box4.style.color = "white";
+        }
+    if (!is24hr) {
+        test
+    }
+    }
 }
 
 showTime();
@@ -80,5 +138,5 @@ const button = document.getElementById("myButton");
 btn.onclick = function () {
     is24hr = !is24hr;
     setInterval(1000)
-        document.getElementById("btn").innerHTML = is24hr ? "24hr" : "12hr";
+        document.getElementById("btn").innerHTML = is24hr ? "12hr" : "24hr";
 };
