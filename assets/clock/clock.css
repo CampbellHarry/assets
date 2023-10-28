@@ -1,0 +1,70 @@
+#clock {
+    font-size: 50px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20%;
+    text-align: center;
+    border: 2px solid black;
+    border-bottom: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: turquoise;
+    background-color: blue;
+    position: relative;
+    font-size-adjust: inherit;
+    padding: 10px;
+}
+#date{
+    font-size: 30px;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    border: 2px solid black;
+    border-bottom: none;
+    color: turquoise;
+    background-color: blue;
+    position: relative;
+    font-size-adjust: inherit;
+    padding: 10px;
+}
+#datee{
+    font-size: 30px;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    border: 2px solid black;
+    color: turquoise;
+    background-color: blue;
+    position: relative;
+    border-bottom: none;
+    font-size-adjust: inherit;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#btn{
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: turquoise;
+    background-color: blue;
+    position: relative;
+    font-size-adjust: inherit;
+    padding: 10px;
+    margin-left: 3%
+}
+#btn:hover{
+    background-color: #00ffff;
+    color: #0000ff;
+}
+#btn:active{
+    background-color: #e5ff00;
+    color: #0000ff;
+}
+body{
+    align-items: center;
+    text-align: center;
+    background-color: #000000;
+}
