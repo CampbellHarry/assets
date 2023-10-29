@@ -1,5 +1,5 @@
 // Calling showTime function at every second
-setInterval(showTime, 1000);
+setInterval(showTime, 1);
 
 let is24hr = true;
 
@@ -10,6 +10,7 @@ function showTime() {
     let hour = time.getHours();
     let min = time.getMinutes();
     let sec = time.getSeconds();
+    let ms = time.getMilliseconds();
     let am_pm = " AM";
 
     // Setting time for 12 Hrs format
@@ -28,6 +29,7 @@ function showTime() {
     hour = hour < 10 ? "0" + hour : hour;
     min = min < 10 ? "0" + min : min;
     sec = sec < 10 ? "0" + sec : sec;
+    ms = ms < 10 ? "0" + ms : ms;
 
     let currentTime = hour + ":" + min + ":" + sec + am_pm;
 
@@ -95,7 +97,7 @@ function showTime() {
             box4.style.color = "white";
         }
     if (!is24hr) {
-        console.log("12hr");
+        test
     }
     }
 }
