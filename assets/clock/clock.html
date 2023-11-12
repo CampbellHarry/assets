@@ -2,16 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content=
-    "width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HC - Clock</title>
     <link rel="stylesheet" href="clock.css">
 </head>
 <body>
-    <b><div id="clock"></div></b>
-    <b><div id="date">00/00/0000</div></b>
-    <b><div id="datee">Day/month/</div></b>
-    <button id="btn" onclick="change()">24hr</button>
-    <script src="clock.js"></script>
+    <div id="clock" class="digital-font"></div>
+    <div id="date" class="digital-font">00/<span id="month">00</span>/0000</div>
+    <div id="datee" class="digital-font">Day/month/</div>
+    <button id="btn" class="digital-font" onclick="change()">24hr</button>
+    <script src="clock.js" defer type="text/javascript"></script>
 </body>
 </html>
